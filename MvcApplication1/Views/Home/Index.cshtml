@@ -1,0 +1,76 @@
+﻿<!DOCTYPE HTML>
+<html ng-app="myApp">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <title>Angular datagrid</title>
+    <script src="http://mleibman.github.com/SlickGrid/lib/jquery-1.7.min.js"></script>    
+    <script src="../../Content/angular/angular.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.8.2/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="http://mleibman.github.com/SlickGrid/slick.grid.css" type="text/css" />
+    <link rel="stylesheet" href="http://mleibman.github.com/SlickGrid/css/smoothness/jquery-ui-1.8.16.custom.css" type="text/css" />
+    <link rel="stylesheet" href="http://mleibman.github.com/SlickGrid/examples/examples.css" type="text/css" />
+    <style type="text/css">
+        .cell-title {
+            font-weight: bold;
+        }
+        .cell-effort-driven {
+            text-align: center;
+        }
+        .ng-invalid {
+            border: 1px solid red;
+        }
+        body {
+            font-family: Arial,Helvetica,sans-serif;
+        }
+        body, td, th {
+            font-size: 14px;
+            margin: 0;
+        }
+        table {
+            border-collapse: separate;
+            border-spacing: 2px;
+            display: table;
+            margin-bottom: 0;
+            margin-top: 0;
+            -moz-box-sizing: border-box;
+            text-indent: 0;
+        }
+
+        a:link, a:visited, a:hover {
+            color: #5D6DB6;
+            text-decoration: none;
+        }
+
+        .error {
+            color: red;
+        }
+
+        .ui-helper-hidden {
+            display: none;
+        }
+    </style>    
+</head>
+<body>
+    <div style="vertical-align:central;text-align:center;margin:15px;">
+        <a href="#Grid" style="font-size:large;">Click to view slick grid</a>
+    </div>
+    <div ng-view></div>    
+    <script src="http://mleibman.github.com/SlickGrid/lib/firebugx.js"></script>
+    <script src="http://mleibman.github.com/SlickGrid/lib/jquery-ui-1.8.16.custom.min.js"></script>
+    <script src="http://mleibman.github.com/SlickGrid/lib/jquery.event.drag-2.0.min.js"></script>
+    <script src="http://mleibman.github.com/SlickGrid/slick.core.js"></script>
+    <script src="http://mleibman.github.com/SlickGrid/plugins/slick.cellrangedecorator.js"></script>
+    <script src="http://mleibman.github.com/SlickGrid/plugins/slick.cellrangeselector.js"></script>
+    <script src="http://mleibman.github.com/SlickGrid/plugins/slick.cellselectionmodel.js"></script>
+    <script src="http://mleibman.github.com/SlickGrid/slick.formatters.js"></script>
+    <script src="http://mleibman.github.com/SlickGrid/slick.editors.js"></script>
+    <script src="http://mleibman.github.com/SlickGrid/slick.grid.js"></script>
+     <script src="http://mleibman.github.com/SlickGrid/slick.dataview.js"></script>
+    <script src="../../Content/app/app.js"></script>
+    <script src="../../Content/app/controller.js"></script>
+    <script src="../../Content/app/directive.js"></script>
+</body>
+</html>
+​
